@@ -82,6 +82,13 @@
 .service-details .image {
   position: relative;
   margin-bottom: 30px;
+  aspect-ratio: 16/10;
+}
+
+.service-details .image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .service-details .text-block {

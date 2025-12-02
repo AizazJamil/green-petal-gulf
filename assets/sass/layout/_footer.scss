@@ -28,6 +28,10 @@
 .about-widget .logo {
   position: relative;
   margin-bottom: 30px;
+
+  img {
+    max-width: 120px;
+  }
 }
 
 .about-widget .text {
